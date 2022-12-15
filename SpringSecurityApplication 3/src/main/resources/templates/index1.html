@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" th:href="@{/css/index_style.css}">
+    <link th:href="@{/css/bootstrap.min.css}" rel="stylesheet"
+          integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="shortcut icon" th:href="@{/img/MTS_Logo.png}" type="image/x-icon">
+    <title>Интернет магазин МТС</title>
+    <link th:href="@{/css/bootstrap.min.css}" rel="stylesheet">
+</head>
+<body>
+<div class="general_div">
+    <nav class="navbar navbar-expand-md navbar-white bg-white" aria-label="Fourth navbar example">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample04"
+                    aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarsExample04">
+                <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/auth/index1">Главная страница</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/product">Каталог товаров</a>
+
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="/auth/login">Авторизация</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container col-xxl-8 px-4 py-5">
+        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+            <div class="col-lg-6">
+                <h1 class="display-5 fw-bold lh-1 mb-3">Интернет магазин</h1>
+                <p class="lead">В данном магазине вы можете приобрести электронные товары для учёбы, работы, игр.
+                    Большой выбор.
+                    Хорошие отзывы.</p>
+                <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                </div>
+            </div>
+           <div class="col-10 col-sm-8 col-lg-6">
+                <div class="image" id="firstEl">
+
+                        <div class="adaptivny-slayder-lasekun">
+                            <div class="abusteku-deagulus">
+                                <img th:src="@{/img/21 (1).png}" alt="1">
+                            </div>
+                            <br>
+                            <br>
+                            <div class="adaptivny-slayder-lasekun">
+                                <div class="abusteku-deagulus">
+                                    <img th:src="@{/img/21 (2).jpg}" alt="1">
+                                </div>
+                                <br>
+                                <br>
+                                <div class="adaptivny-slayder-lasekun">
+                                    <div class="abusteku-deagulus">
+                                        <img th:src="@{/img/21 (3).jpg}" alt="1">
+
+                                    </div>
+
+                                </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</div>
+<script th:src="@{/js/bootstrap.bundle.min.js}"></script>
+<script th:src="@{/js/script.js}"></script>
+</body>
+</html>
